@@ -5,8 +5,8 @@ h1 {
 }
 
 table {
-border-collapse: separate;
-border-color:#848484
+border: 1px solid black;
+border-collapse:collapse;
 text-align:center;
 margin:0 auto;
 }
@@ -17,7 +17,9 @@ color:purple;
 }
 
 th {
-background-color:#848484
+background-color:#848484;
+text-align:center;
+bold;
 }
 
 
