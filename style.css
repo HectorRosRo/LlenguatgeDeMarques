@@ -4,8 +4,8 @@ h1 {
   margin-left: 20px;
 }
 
-table {
-border: 1px solid black;
+table, th, td {
+border: 2px solid black;
 border-collapse:collapse;
 text-align:center;
 margin:0 auto;
@@ -19,7 +19,7 @@ color:purple;
 th {
 background-color:#848484;
 text-align:center;
-bold;
+font-weight: bold;
 }
 
 
