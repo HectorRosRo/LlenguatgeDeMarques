@@ -8,41 +8,52 @@
 <h1>Formulari</h1>
 <form>
     <label for="nombre">Nombre: </label>
-    <input id="nombre" type="text">
+    <input id="nombre" type="text" required>
     <br>
     <br>
     <label for="email">Email: </label>
-    <input type="email" id="email">
+    <input type="email" id="email" required>
     <br>
     <br>
     <label for="numero">Número:</label>
-    <input type="number" id="numero" name="numero" min="0" max="100">
+    <input type="number" id="numero" name="numero" min="0" max="100" required>
     <br>
     <br>
     <label for="lista">Escoge una opción:</label>
-    <select name="lista" id="lista">
+    <select name="lista" id="lista" required>
         <option value="elemento 1">1</option>
         <option value="elemento 2">2</option>
     </select>
     <br>
     <br>
-    <label for="checkboxid">sssssssss</label>
+    <label for="checkboxid">Estas de acuerdo con esta decisión?</label>
     <br>
     <div id="checkboxid">
         <label for="checkboxid1">Si</label>
-        <input id="checkboxid1" type="checkbox">
+        <input id="checkboxid1" type="checkbox" checked>
         <br>
         <label for="checkboxid2">No</label>
         <input id="checkboxid2" type="checkbox">
         <br>
-        <label for="checkboxid3">Ya lo tengo</label>
+        <label for="checkboxid3">Y en todo el mundo se tiene que aplicar</label>
         <input id="checkboxid3" type="checkbox">
     </div>
+    <br>
+    <br>
     <label id="preguntaGeneral">Comprarias el Iphone 12 despues de leer esta noticia</label>
     <div>
-    <input id="pregunta" type="radio">
-
+        <label for="pregunta1">No</label>
+        <input id="pregunta1" type="radio">
+        <br>
+        <label for="pregunta2">Si</label>
+        <input id="pregunta2" type="radio" checked>
+        <br>
+        <label for="pregunta3">Ya lo tengo</label>
+        <input id="pregunta3" type="radio">
     </div>
+    <br>
+    <br>
+    <textarea placeholder="Escribe tus comentarios aqui..."></textarea>
 </form>
 
 </body>
