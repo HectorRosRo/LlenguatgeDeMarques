@@ -1,23 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Formulari</title>
 </head>
 <body>
+<h1>Formulari</h1>
 <form>
     <label for="nombre">Nombre: </label>
-    <input type="text" id="nombre" name="nombre"><br><br>
+    <input id="nombre" type="text">
+    <br>
+    <br>
     <label for="email">Email: </label>
-    <input type="email" id="email" name="email">
+    <input type="email" id="email">
+    <br>
+    <br>
     <label for="numero">Número:</label>
     <input type="number" id="numero" name="numero" min="0" max="100">
+    <br>
+    <br>
     <label for="lista">Escoge una opción:</label>
     <select name="lista" id="lista">
-        <option value="elemento 1">Elemento 1</option>
-        <option value="elemento 2">Elemento 2</option>
+        <option value="elemento 1">1</option>
+        <option value="elemento 2">2</option>
     </select>
+    <br>
+    <br>
+    <label for="checkboxid">sssssssss</label>
+    <br>
+    <div id="checkboxid">
+        <label for="checkboxid1">Si</label>
+        <input id="checkboxid1" type="checkbox">
+        <br>
+        <label for="checkboxid2">No</label>
+        <input id="checkboxid2" type="checkbox">
+        <br>
+        <label for="checkboxid3">Ya lo tengo</label>
+        <input id="checkboxid3" type="checkbox">
+    </div>
+    <label id="preguntaGeneral">Comprarias el Iphone 12 despues de leer esta noticia</label>
+    <div>
+    <input id="pregunta" type="radio">
 
+    </div>
 </form>
 
 </body>
