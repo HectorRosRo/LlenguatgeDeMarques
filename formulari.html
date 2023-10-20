@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Formulari</title>
+    <link rel="formulari_enviat.html" href="formulari_enviat.html">
 </head>
 <body>
 <h1>Formulari</h1>
-<form>
+<form class="formulario">
     <label for="nombre">Nombre: </label>
     <input id="nombre" type="text" required>
     <br>
@@ -28,7 +29,7 @@
     <br>
     <label for="checkboxid">Estas de acuerdo con esta decisión?</label>
     <br>
-    <div id="checkboxid">
+    <div id="checkboxid" required>
         <label for="checkboxid1">Si</label>
         <input id="checkboxid1" type="checkbox" checked>
         <br>
@@ -53,7 +54,16 @@
     </div>
     <br>
     <br>
-    <textarea placeholder="Escribe tus comentarios aqui..."></textarea>
+    <label for="areaTexto">¿Qué te ha parecido el formualrio?</label>
+    <br>
+    <textarea id="areaTexto"placeholder="Escribe tus comentarios aqui..." required></textarea>
+    <br>
+    <br>
+    <br>
+    <label for="btnEnviar"></label>
+    <button id="btnEnviar" onclick="formulari_enviat.html">Enviar</button>
+
+
 </form>
 
 </body>
