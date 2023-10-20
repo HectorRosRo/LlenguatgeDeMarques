@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <title>Formulari</title>
     <link rel="formulari_enviat.html" href="formulari_enviat.html">
+    <link rel="stylesheet" href="styleForm.css">
 </head>
 <body>
 <h1>Formulari</h1>
-<form class="formulario">
-    <label for="nombre">Nombre: </label>
-    <input id="nombre" type="text" required>
+<form>
+    <label for="nombre">Nombre:</label>
+    <input class="textbox" id="nombre" type="text" required>
     <br>
     <br>
-    <label for="email">Email: </label>
-    <input type="email" id="email" required>
+    <label for="email">Email:</label>
+    <input class="textbox" type="email" id="email" required>
     <br>
     <br>
     <label for="numero">Número:</label>
@@ -29,7 +30,7 @@
     <br>
     <label for="checkboxid">Estas de acuerdo con esta decisión?</label>
     <br>
-    <div id="checkboxid" required>
+    <div id="checkboxid">
         <label for="checkboxid1">Si</label>
         <input id="checkboxid1" type="checkbox" checked>
         <br>
@@ -56,12 +57,12 @@
     <br>
     <label for="areaTexto">¿Qué te ha parecido el formualrio?</label>
     <br>
-    <textarea id="areaTexto"placeholder="Escribe tus comentarios aqui..." required></textarea>
+    <textarea id="areaTexto" placeholder="Escribe tus comentarios aqui..." required></textarea>
     <br>
     <br>
     <br>
     <label for="btnEnviar"></label>
-    <button id="btnEnviar" onclick="formulari_enviat.html">Enviar</button>
+    <button id="btnEnviar" onclick="location.href='formulari_enviat.html'">Enviar</button>
 
 
 </form>

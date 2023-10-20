@@ -1,0 +1,40 @@
+body {
+background-color:red;
+font-family:Monospace;
+}
+
+.textbox{
+width:300px;
+display:block; /*Baixa de linea el text box*/
+}
+
+.textbox:hover{
+cursor: text;
+}
+
+.textbox:focus{
+background-color:blue;
+}
+
+#numero{
+width:100px;
+display:block;
+}
+
+#btnEnviar, #retorn{
+background-color:green;
+}
+
+#btnEnviar:hover, #retorn:hover{
+background-color:red;
+}
+
+
+
+
+
+
+
+
+
+
