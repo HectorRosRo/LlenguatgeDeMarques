@@ -8,21 +8,21 @@
 </head>
 <body>
 <h1>Formulari</h1>
-<form>
-    <label for="nombre">Nombre:</label>
-    <input class="textbox" id="nombre" type="text" required>
+<form action="formulari_enviat.html">
+    <label for="formNombre">Nombre:</label>
+    <input class="textbox" id="formNombre" type="text" required>
     <br>
     <br>
-    <label for="email">Email:</label>
-    <input class="textbox" type="email" id="email" required>
+    <label for="formEmail">Email:</label>
+    <input class="textbox" type="email" id="formEmail" required>
     <br>
     <br>
-    <label for="numero">Número:</label>
-    <input type="number" id="numero" name="numero" min="0" max="100" required>
+    <label for="formNumero">Número:</label>
+    <input type="number" id="formNumero" name="numero" min="0" max="100" required>
     <br>
     <br>
-    <label for="lista">Escoge una opción:</label>
-    <select name="lista" id="lista" required>
+    <label for="formLista">Escoge una opción:</label>
+    <select name="lista" id="formLista" required>
         <option value="elemento 1">1</option>
         <option value="elemento 2">2</option>
     </select>
@@ -61,8 +61,10 @@
     <br>
     <br>
     <br>
-    <label for="btnEnviar"></label>
-    <button id="btnEnviar" onclick="location.href='formulari_enviat.html'">Enviar</button>
+
+    <input id="btnEnviar" type="submit" value="enviar">
+
+<!--    <button id="btnEnviar" onclick="location.href='formulari_enviat.html'">Enviar</button>-->
 
 
 </form>
