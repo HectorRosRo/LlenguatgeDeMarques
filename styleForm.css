@@ -1,6 +1,6 @@
 body {
-background-color:red;
-font-family:Monospace;
+background-color:#F3E5AB;
+font-family:Impact (sans-serif);
 }
 
 .textbox{
@@ -13,7 +13,9 @@ cursor: text;
 }
 
 .textbox:focus{
-background-color:blue;
+border-width:3px;
+border-color:#5A5A5A;
+
 }
 
 #numero{
