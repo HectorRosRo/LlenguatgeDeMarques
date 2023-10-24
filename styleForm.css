@@ -14,9 +14,7 @@ cursor: text;
 }
 
 .textbox:focus{
-border-width:3px;
-border-color:#5A5A5A;
-
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 #numero{
@@ -34,12 +32,14 @@ display:block;
     font-size: 18px;
     font-weight: bold;
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
+
 }
 
 #btnEnviar:hover, #retorn:hover {
     background-color: #fff;
     color: #ff5733;
     transform: scale(1.1);
+
 }
 
 
