@@ -6,6 +6,7 @@ font-family:Impact (sans-serif);
 .textbox{
 width:300px;
 display:block; /*Baixa de linea el text box*/
+
 }
 
 .textbox:hover{
@@ -25,10 +26,12 @@ display:block;
 
 #btnEnviar, #retorn{
 background-color:green;
+
 }
 
 #btnEnviar:hover, #retorn:hover{
 background-color:red;
+cursor: pointer;
 }
 
 
