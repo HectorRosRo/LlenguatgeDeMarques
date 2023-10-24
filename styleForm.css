@@ -25,13 +25,21 @@ display:block;
 }
 
 #btnEnviar, #retorn{
-background-color:green;
-
+    display: inline-block;
+    background-color: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #FF5733;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
 
-#btnEnviar:hover, #retorn:hover{
-background-color:red;
-cursor: pointer;
+#btnEnviar:hover, #retorn:hover {
+    background-color: #fff;
+    color: #ff5733;
+    transform: scale(1.1);
 }
 
 
