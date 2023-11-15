@@ -11,53 +11,54 @@
 <!--Comencem a programar el formulari-->
 <form action="formulari_enviat.html">
 <!--    Aqui li indiquem la acció que ha de fer el bottó "enviar"-->
-    <label for="formNombre">Nombre:</label>
+    <label for="formNombre" class="tituloLabel">Nombre:</label>
     <input class="textbox" id="formNombre" type="text" required>
     <br>
     <br>
-    <label for="formEmail">Email:</label>
+    <label for="formEmail" class="tituloLabel">Email:</label>
     <input class="textbox" type="email" id="formEmail" required>
     <br>
     <br>
-    <label for="formNumero">Número:</label>
+    <label for="formNumero" class="tituloLabel">Cuantas personas conoces que tienes el Iphone 12?:</label>
     <input type="number" id="formNumero" name="numero" min="0" max="100" required>
     <br>
     <br>
-    <label for="formLista">Escoge una opción:</label>
+    <label for="formLista" class="tituloLabel">Selecciona una opción:</label>
     <select name="lista" id="formLista" required>
-        <option value="elemento 1">1</option>
-        <option value="elemento 2">2</option>
+        <option value="elemento 1">Soy menor de edad</option>
+        <option value="elemento 2">Soy mayor de edad</option>
     </select>
     <br>
     <br>
-    <label for="checkboxid">Estas de acuerdo con esta decisión?</label>
+    <label for="formCheckbox" class="tituloLabel">Eres un usuario de Iphone?</label>
     <br>
-    <div id="checkboxid">
+    <div id="formCheckbox">
         <label for="checkboxid1">Si</label>
         <input id="checkboxid1" type="checkbox" checked>
         <br>
-        <label for="checkboxid2">No</label>
+        <label for="checkboxid2">No, nunca</label>
         <input id="checkboxid2" type="checkbox">
         <br>
-        <label for="checkboxid3">Y en todo el mundo se tiene que aplicar</label>
+        <label for="checkboxid3">Era usuario, pero ya no.</label>
         <input id="checkboxid3" type="checkbox">
     </div>
     <br>
     <br>
-    <label for="preguntaGeneral">Comprarias el Iphone 12 despues de leer esta noticia</label>
-    <div id="preguntaGeneral">
-        <label for="pregunta1">No</label>
+<!--    Aqui lo que hacemos es una lista de tres opciones que una de ellas és la respuesta a la pregunta. -->
+    <label for="formPregunta1" class="tituloLabel">Comprarias el Iphone 12 despues de leer esta noticia?</label>
+    <div id="formPregunta1">
+        <label for="pregunta1">Si</label>
         <input name="grupRadio" id="pregunta1" type="radio">
         <br>
-        <label for="pregunta2">Si</label>
+        <label for="pregunta2">No</label>
         <input name="grupRadio" id="pregunta2" type="radio" checked>
         <br>
-        <label for="pregunta3">Ya lo tengo</label>
+        <label for="pregunta3">Es mi mobil actual</label>
         <input name="grupRadio" id="pregunta3" type="radio">
     </div>
     <br>
     <br>
-    <label for="areaTexto">¿Qué te ha parecido el formualrio?</label>
+    <label for="areaTexto" class="tituloLabel">¿Qué te ha parecido el formualrio?</label>
     <br>
     <textarea id="areaTexto" placeholder="Escribe tus comentarios aqui..." required></textarea>
     <br>

@@ -13,8 +13,41 @@ display:block; /*Baixa de linea el text box*/
 cursor: text;
 }
 
+/*Aqui ponemos "focus" a todos los elementos del formulario*/
 .textbox:focus{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#formNumero:focus{
+border-width:3px;
+border-color:#0000ff;
+}
+
+#formLista:focus{
+border-width:3px;
+border-color:#0000ff;
+}
+
+#formCheckbox:focus{
+border-width:3px;
+border-color:#0000ff;
+}
+
+#formPregunta1:focus{
+border-width:3px;
+border-color:#0000ff;
+}
+
+#areaTexto:focus{
+border-width:3px;
+border-color:#0000ff;
+}
+/*Aqui acabamos la tarea de poner "focus" a los elementos.*/
+
+/*Modificamos los "labels" principales, por eso los seleccionamos con una clase*/
+.tituloLabel {
+font-size: 1.2em;
+font-weight: bold;
 }
 
 #numero{
@@ -22,6 +55,7 @@ width:100px;
 display:block;
 }
 
+/*Aqui son las modificaciones que le hemos añadido al boton de envio del formulario*/
 #btnEnviar, #retorn{
     display: inline-block;
     background-color: #ff5733;
