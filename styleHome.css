@@ -1,0 +1,20 @@
+.headerNoticia {
+background-color: #332F2C;
+position:fixed;
+top:0px;
+left: 0px;
+right: 0px;
+}
+
+#ttlHeader {
+color: #FFFFFF;
+text-align:center;
+}
+
+.navHeader {
+align:center;
+text-align:center;
+background-color:#332F2C;
+position: sticky;
+top: 0px;
+}
